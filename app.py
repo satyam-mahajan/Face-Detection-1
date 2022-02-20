@@ -102,7 +102,7 @@ def main():
         # You can specify more file types below if you want
     	image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
 
-    	if image_file is not None:
+        if image_file is not None:
 
     		image = Image.open(image_file)
 
